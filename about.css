@@ -4,7 +4,7 @@
 
             margin:0;
             padding:0;
-        	background:url("images/about1.jpg");
+        	background:url("images/stars.gif");
         }
 
         .container{
@@ -14,6 +14,7 @@
         	margin-top:40px;
             background:linear-gradient(#f1f1f2,#bcbabe,#a1d6e2,#1995ad);
             border-radius:10px;
+            font-family:comic Sans MS;
         }
 
         .banner{
@@ -27,6 +28,7 @@
         	width:25%;
         	height:300px;
         	padding:3%;
+            border-radius:70px;
         }
 
         .content1{
@@ -35,7 +37,9 @@
             color:blue;
             font-size:2em;
             float:left;
-            background-color: #bcbabe;
+            background:linear-gradient(#98dbc6,#5bc8ac,#e6d72a,#f18d9e);
+            border-radius:10px;
+            font-family:comic Sans MS;
         }
 
         .content2{
@@ -45,7 +49,9 @@
             font-size:2em;
             margin-left:33%;
             margin-top:30%;
-            background-color: #a1d6e2;
+            background:linear-gradient(#9a9eab,#5d535e,#ec96a4,#dfe166);
+            border-radius:10px;
+            font-family:comic Sans MS;
         }
 
         .content3{
@@ -54,7 +60,9 @@
             color:blue;
             font-size:2em;
             float:right;
-            background-color: #1995ad;
+            background:linear-gradient(#4d85bd,#7caa2d,#f5e356,#cb6318);
+            border-radius:10px;
+            font-family:comic Sans MS;
         }
 
         .link{
@@ -62,6 +70,7 @@
             float:left;
             font-size:2em;
             background-color: white;
+            border-radius:10px;
 
         }
 
@@ -126,14 +135,14 @@
         }
            .content2{
 
-            width:33%;
+            width:34%;
             font-size:1.4em;
             margin-left:33%;
             margin-top:60%;
         }
         .content3{
 
-            width:33%;
+            width:32%;
             font-size:1.4em;
             float:right;
         }
@@ -156,20 +165,20 @@
         }
         .content1{
 
-            width:33%;
+            width:33.5%;
             font-size:1em;
             float:left;
         }
            .content2{
 
-            width:33%;
+            width:34.5%;
             font-size:1em;
             margin-left:33%;
             margin-top:65%;
         }
         .content3{
 
-            width:33%;
+            width:32%;
             font-size:1em;
             float:right;
         }
@@ -192,21 +201,21 @@
         }
         .content1{
 
-            width:33%;
-            font-size:0.7em;
+            width:33.5%;
+            font-size:0.6em;
             float:left;
         }
             .content2{
 
-            width:33%;
-            font-size:0.7em;
+            width:34.5%;
+            font-size:0.6em;
             margin-left:33%;
             margin-top:70%;
         }
         .content3{
 
-            width:33%;
-            font-size:0.7em;
+            width:32%;
+            font-size:0.6em;
             float:right;
         }
     }

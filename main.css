@@ -5,22 +5,23 @@
          margin:0;
          padding:0;
       	animation-name:colorchange;
-      	animation-duration:9s;
+      	animation-duration:5s;
       	animation-iteration-count:infinite;
 
       }
 
      @keyframes colorchange{
-      	0%{background-color: #021c1e;}
-      	33%{background-color: #004445;}
-      	66%{background-color: #2c7873;}
-      	100%{background-color: #6fb98f;}
+      	0%{background-color: #fcc875;}
+      	33%{background-color: #baa896;}
+      	66%{background-color: #e6ccb5;}
+      	100%{background-color: #e38b75;}
       }
 
       .banner{
 
       	width:100%;
       	height:15em;
+            border-radius:10px;
       	animation-name:imagechange;
       	animation-duration:9s;
       	animation-iteration-count:infinite;
@@ -38,42 +39,50 @@
 
       	width:80%;
       	margin-left:10%;
-      	background-color:red;
+            background:linear-gradient(#f1f1f2,#bcbabe,#a1d6e2,#1995ad);
       	margin-top:4em;
       	color:white;
+            border-radius:10px;
       }
 
       .h1{
 
       	font-size:5em;
       	margin-left:30%;
+            font-family:comic Sans MS;
       }
 
       .about{
-      	width:3.3em;
-      	background-color: white;
+      	width:3.5em;
+      	background-color: #eab364;
       	position:fixed;
       	margin-left:0;
       	margin-top:0.5em;
       	font-size:2em;
+            border-radius:5px;
+            font-family:comic Sans MS;
       }
 
       .contact{
-      	width:3.3em;
-      	background-color: white;
+      	width:3.8em;
+      	background-color: #eab364;
       	margin-left:0;
       	margin-top:5em;
       	position:fixed;
       	font-size:2em;
+            border-radius:5px;
+            font-family:comic Sans MS;
       }
        .content1{
       	width:55%;
       	font-size:4em;
       	float:left;
       	margin-top:2.5em;
+            background:linear-gradient(#98dbc6,#5bc8ac,#e6d72a,#f18d9e);
+            border-radius:10px;
        margin-left:20%;
-       background-color:red;
        color:white;
+       font-family:comic Sans MS;
       }
 
       .describe1{
@@ -81,9 +90,12 @@
         width:20%;
       	margin-left:40%;
       	background-color: blue;
+            background:linear-gradient(#0f1f38,#8e7970,#f55449,#1b4b5a);
       	color:white;
       	font-size:2em;
       	margin-top:6em;
+            border-radius:10px;
+            font-family:comic Sans MS;
       }
 
       .content2{
@@ -91,18 +103,23 @@
       	font-size:4em;
       	float:left;
       	margin-top:1.5em;
+            background:linear-gradient(#9a9eab,#5d535e,#ec96a4,#dfe166);
        margin-left:20%;
-       background-color:red;
        color:white;
+       border-radius:10px;
+       font-family:comic Sans MS;
       }
       .describe2{
 
         width:20%;
       	margin-left:40%;
       	background-color: blue;
+            background:linear-gradient(#16253d,#002c54,#efb509,#cd7213);
       	color:white;
       	font-size:2em;
       	margin-top:6em;
+            border-radius:10px;
+            font-family:comic Sans MS;
       }
 
       .content3{
@@ -110,9 +127,11 @@
       	font-size:4em;
       	float:left;
       	margin-top:1.5em;
+            background:linear-gradient(#4d85bd,#7caa2d,#f5e356,#cb6318);
        margin-left:20%;
-       background-color:red;
        color:white;
+       border-radius:10px;
+       font-family:comic Sans MS;
       }
 
       .describe3{
@@ -120,9 +139,12 @@
         width:20%;
       	margin-left:40%;
       	background-color: blue;
+            background:linear-gradient(#6c5f5b,#cdab81,#dac3b3,#4f4a45);
       	color:white;
       	font-size:2em;
       	margin-top:6em;
+            border-radius:10px;
+            font-family:comic Sans MS;
       }
 
       .content4{
@@ -130,9 +152,11 @@
       	font-size:4em;
       	float:left;
       	margin-top:1.5em;
+            background:linear-gradient(#444c5c,#ce5a57,#78a5a3,#e1b16a);
        margin-left:20%;
-       background-color:red;
        color:white;
+       border-radius:10px;
+       font-family:comic Sans MS;
       }
 
       .describe4{
@@ -143,6 +167,7 @@
       	animation-name:certichange;
       	animation-duration:9s;
       	animation-iteration-count:infinite;
+            border-radius:10px;
 
       }
 
