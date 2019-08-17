@@ -1,0 +1,213 @@
+
+
+      body{
+
+            margin:0;
+            padding:0;
+        	background:url("images/about1.jpg");
+        }
+
+        .container{
+
+        	width:100%px;
+        	height:150px;
+        	margin-top:40px;
+            background:linear-gradient(#f1f1f2,#bcbabe,#a1d6e2,#1995ad);
+            border-radius:10px;
+        }
+
+        .banner{
+
+        	font-size:5em;
+        	color:blue;
+        	padding-top:2.5%;
+        }  
+
+        img{
+        	width:25%;
+        	height:300px;
+        	padding:3%;
+        }
+
+        .content1{
+
+            width:33%;
+            color:blue;
+            font-size:2em;
+            float:left;
+            background-color: #bcbabe;
+        }
+
+        .content2{
+
+            width:33%;
+            color:blue;
+            font-size:2em;
+            margin-left:33%;
+            margin-top:30%;
+            background-color: #a1d6e2;
+        }
+
+        .content3{
+
+            width:33%;
+            color:blue;
+            font-size:2em;
+            float:right;
+            background-color: #1995ad;
+        }
+
+        .link{
+
+            float:left;
+            font-size:2em;
+            background-color: white;
+
+        }
+
+        @media only screen and (max-width:995px)
+        {
+        	.container{
+        		width:100%;
+        	}
+        	.banner{
+        		font-size:4.5em;
+        		padding-top:6%;
+        	}
+            img{
+
+            width:25%;
+            height:300px;
+            padding:3%;
+            }
+            .content1{
+
+            width:33%;
+            font-size:2em;
+            float:left;
+        }
+
+           .content2{
+
+            width:33%;
+            font-size:2em;
+            margin-left:33%;
+            margin-top:55%;
+        }
+        .content3{
+
+            width:33%;
+            font-size:2em;
+            float:right;
+        }
+
+        }
+
+        @media only screen and (max-width:700px)
+        {
+        	.container{
+        		width:100%;
+        	}
+        	.banner{
+        		font-size:4em;
+        		padding-top:5%;
+        	}
+            img{
+
+            width:25%;
+            height:260px;
+            padding:3%;
+           }
+           .content1{
+
+            width:33%;
+            font-size:1.4em;
+            float:left;
+        }
+           .content2{
+
+            width:33%;
+            font-size:1.4em;
+            margin-left:33%;
+            margin-top:60%;
+        }
+        .content3{
+
+            width:33%;
+            font-size:1.4em;
+            float:right;
+        }
+    }
+
+        @media only screen and (max-width:400px)
+        {
+        	.container{
+        		width:100%;
+        	}
+        	.banner{
+        		font-size:3.5em;
+        		padding-top:4.5%;
+        	}
+            img{
+
+            width:25%;
+            height:220px;
+            padding:3%;
+        }
+        .content1{
+
+            width:33%;
+            font-size:1em;
+            float:left;
+        }
+           .content2{
+
+            width:33%;
+            font-size:1em;
+            margin-left:33%;
+            margin-top:65%;
+        }
+        .content3{
+
+            width:33%;
+            font-size:1em;
+            float:right;
+        }
+    }
+
+        @media only screen and (max-width:100px)
+        {
+        	.container{
+        		width:100%;
+        	}
+        	.banner{
+        		font-size:3em;
+        		padding-top:6%;
+        	}
+            img{
+
+            width:25%;
+            height:180px;
+            padding:3%;
+        }
+        .content1{
+
+            width:33%;
+            font-size:0.7em;
+            float:left;
+        }
+            .content2{
+
+            width:33%;
+            font-size:0.7em;
+            margin-left:33%;
+            margin-top:70%;
+        }
+        .content3{
+
+            width:33%;
+            font-size:0.7em;
+            float:right;
+        }
+    }
+
